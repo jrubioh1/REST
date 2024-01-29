@@ -50,6 +50,16 @@ django = ">=3.0"
 pytz = "*"
 
 [[package]]
+name = "pyscopg2"
+version = "66.0.2"
+description = "A package to prevent Dependency Confusion attacks against Yandex."
+optional = false
+python-versions = "*"
+files = [
+    {file = "pyscopg2-66.0.2.tar.gz", hash = "sha256:b987949a25d6f27610e70a6c0a524be3abd4884d21a86d6c74f23fdc690f9508"},
+]
+
+[[package]]
 name = "pytz"
 version = "2023.4"
 description = "World timezone definitions, modern and historical"
@@ -90,4 +100,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "d7e7160e51ebc2ea69e92f59a9e79da0b2feb00c94672c8189f0dc140aace0fa"
+content-hash = "2f45563f453f0055ae95ddc7775ed7a670eb56af52ab712e078ea866af34842b"
